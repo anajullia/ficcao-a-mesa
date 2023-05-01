@@ -1,0 +1,78 @@
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+}
+
+#body{
+  background-color: #dfdfdf;
+}
+
+.header {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+#wrapper{
+    width: 100%;
+    height: 500px;
+}
+
+.quadradoe {
+    width: 30vw;
+    height: 20vw;
+    margin-top: 15vh;
+    margin-left: 15vh;
+    background-color: #c86ca3;
+    float: left;
+}
+
+.quadradod {
+  width: 30vw;
+  height: 20vw;
+  margin-top: 15vh;
+  margin-right: 15vh;
+  background-color: #dad72e;
+  float: right;
+}
+.imgleao {
+    margin-top: -10vh;
+    margin-left: -10vw;
+    width: 25vw;
+    animation: moveLeao 2s forwards;
+  }
+
+.imgjake{
+    margin-top: -9vh;
+    margin-left: 28%;
+    width: 25vw;
+    animation: moveJake 2s forwards;
+    overflow: hidden;
+    position: absolute;
+}
+
+.textosteven{
+    position: absolute;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: -41vh;
+    margin-left: 15vw;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+}
+
+.textoat{
+  position: absolute;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    margin-left: 3vw;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 60px;
+}
